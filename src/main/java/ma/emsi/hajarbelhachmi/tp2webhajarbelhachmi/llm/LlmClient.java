@@ -40,7 +40,7 @@ public class LlmClient implements Serializable {
         // Création du modèle qui représente le LLM.
         ChatModel model = GoogleAiGeminiChatModel.builder()
                 .apiKey(apiKey)
-                .modelName("gemini-2.5-flash")
+                .modelName("gemini-3.5-flash")
                 .build();
 
         // Création de l'assistant, avec une mémoire qui garde les derniers messages échangés.
